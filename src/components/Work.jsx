@@ -42,8 +42,8 @@ const Work = () => {
 
   return (
     <div className="w-full">
-      <div className="relative max-w-screen-lg mx-auto text-center mt-2 ">
-        <h1 className="leading-none text-[32vw] font-medium tracking-tight select-none">
+      <div className="relative max-w-screen-lg mx-auto text-center mt-4 ">
+        <h1 className="leading-none text-[33vw] font-medium tracking-tight select-none">
           work
         </h1>
         <div className="absolute top-0 w-full h-full">
@@ -53,7 +53,8 @@ const Work = () => {
                 <img
                   className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%]"
                   src={elem.url}
-                  style={{ top: elem.top, left: elem.left }} key={index}
+                  style={{ top: elem.top, left: elem.left }}
+                  key={index}
                 />
               )
           )}
