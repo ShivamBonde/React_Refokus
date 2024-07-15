@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Product from "./Product";
 import { motion } from "framer-motion";
 
-import arqitel from "../../public/videos/arqitel.webm";
-import ttr from "../../public/videos/ttr.webm";
-import yir from "../../public/videos/yir.webm";
-import yahoo from "../../public/videos/yahoo.webm";
+import arqitel from "../videos/arqitel.webm";
+import ttr from "../videos/ttr.webm";
+import yir from "../videos/yir.webm";
+import yahoo from "../videos/yahoo.webm";
 
 const Products = () => {
   const products = [
