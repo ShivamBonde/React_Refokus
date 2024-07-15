@@ -32,7 +32,7 @@ const Stripes = () => {
   return (
     <div className="mt-16 flex items-center overflow-hidden border-t-[1px] border-b-[1px]">
       {data.map((elem, index) => (
-        <Stripe val={elem} ukey={index} />
+        <Stripe key={index} val={elem} ukey={index} />
       ))}
     </div>
   );

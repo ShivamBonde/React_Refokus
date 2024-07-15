@@ -1,10 +1,10 @@
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Card = ({ width, start, para, hover = "false" }) => {
   return (
-    <div
+    <motion.div
       whileHover={{
         backgroundColor: hover === "true" && "#7443ff",
         padding: "25px",
@@ -35,7 +35,7 @@ const Card = ({ width, start, para, hover = "false" }) => {
           </p>
         )}
       </div>
-    </div> //motion.div
+    </motion.div> //motion.div
   );
 };
 

@@ -17,9 +17,9 @@ const Footer = () => {
             ))}
           </div>
           <div className="basis-1/3">
-            <h4 className="mb-10 text-zinc-500">socials</h4>
-            {["Instagram", "twitter (x?)", "LinkedIn"].map((item, index) => (
-              <a key={index} className="block mt-3 text-zinc-500 capitalize">
+            <h4 className="mb-10 text-zinc-500">Sitemaps</h4>
+            {["Home", "Work", "Careers", "Contact"].map((item, index) => (
+              <a key={index} className="block mt-3 text-zinc-500 ">
                 {item}
               </a>
             ))}
